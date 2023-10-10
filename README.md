@@ -2,7 +2,7 @@
 Os envs install
 
 ```
-su root
+su -
 apt install sudo
 usermod --append -G sudo $USER-NAME
 su $USER-NAME
