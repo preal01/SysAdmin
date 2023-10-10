@@ -2,7 +2,7 @@
 Os envs install
 
 ```
-user="$(whoami)" &&
+user="$(whoami)"
 su root && apt install sudo && usermod --append -G sudo $user
 su $user
 ```
