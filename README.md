@@ -7,4 +7,6 @@ su root && apt install sudo && usermod --append -G sudo $user
 su $user
 ```
 
-`wget -O - https://github.com/preal01/SysAdmin/blob/main/setup.sh | bash`
+```
+wget -O - https://github.com/preal01/SysAdmin/blob/main/setup.sh | bash
+```
